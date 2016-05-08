@@ -7,14 +7,13 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  *
  * @providesModule SourceMapsUtils
- * @flow
  */
 
 'use strict';
 
 var Promise = require('Promise');
 var NativeModules = require('NativeModules');
-var SourceMapConsumer = require('SourceMap').SourceMapConsumer;
+var SourceMapConsumer = require('source-map').SourceMapConsumer;
 var SourceMapURL = require('./source-map-url');
 
 var RCTSourceCode = NativeModules.SourceCode;
